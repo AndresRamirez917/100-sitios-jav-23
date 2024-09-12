@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    background: #49ff85;
+}
+
+h1 {
+    font-size: 2em;
+    color: #000;
+}
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-weight: 200px;
+    font-size: 150px;
+    text-transform: uppercase;
+    margin: .5em 0;
+}
+
+span {
+color: #059635;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: .5em;
+}
+
+p {
+    color: #000;
+    font-size: 1em;
+}
+
+ul {
+    color: #000;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+li {
+    font-size: 2em;
+    color: #fff;
+}
+
+button {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1em;
+    padding: 20px 40px;
+    background: #039e10;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #fff;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+form {
+    width: 100%;
+}
+
+form .form-group {
+    margin-bottom: 1em;
+    color: #000;
+}
+
+form .form-control {
+    padding: 1em;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+}
+
+.navbar .container {
+    margin-top: 3em;
+    border: 1px solid #000;
+}
+
+.navbar .logo {
+    float: left;
+    margin-top: 1em;
+    font-size: 1.0em;
+}
+
+.navbar ul {
+    float: right;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: .5em;
+}
+
+#search {
+    padding: 3px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#showcase img {
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#showcase h2 {
+    font-size: 6em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+/* about */
+.about-text-left {
+    margin-top: 6em;
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+.about-text-rigth {
+    float: right;
+    width: 60%;
+    text-align: right;
+    font-size: 1.3em;
+}
+
+/* services */
+
+#services img {
+    width: 20%;
+}
+
+#services .services-text-1 {
+    float: right;
+    width: 75%;
+    margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.madre {
+    border: 1px solid #000;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 2em;
+}
+
+#services .services-img-1{
+    float: left;
+    width: 20%;
+   
+}
+
+#services .services-text-2 {
+    float: left;
+    width: 75%;
+    margin-top: 3em;
+    
+}
+
+#services .services-img-2 {
+    float: right;
+    width: 16%;
+}
+
+/* form */
+#contact form {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+/* footer */
+#footer {
+    margin-top: 3em;
+    text-align: center;
+    padding: 1em;
+    background: #000;
+}
+

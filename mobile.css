@@ -1,0 +1,73 @@
+.navbar .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1em;
+    display: block;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.navbar ul {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar ul li {
+    float: none;
+    display: inline-block;
+}
+
+.about-text-left {
+    margin-top: 0;
+    float: none;
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+#showcase h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-text-rigth {
+    float: none;
+    width: 100%;
+    text-align: justify;
+}
+
+.madre {
+    height: 600px;
+    padding: 20px;
+    margin-bottom: 2em;
+}
+
+#services .services-img-1 {
+    float: none;
+    width: 100%;
+}
+
+#services .services-text-1 {
+float: none;
+width: 100%;
+margin-bottom: 2em;
+}
+
+#services .services-img-2 {
+    float: none;
+    width: 100%;
+}
+
+#services .services-text-2 {
+float: none;
+width: 100%;
+}
