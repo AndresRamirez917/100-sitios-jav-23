@@ -2,8 +2,8 @@ async function getData() {
     const result = await fetch('https://fakestoreapi.com/products/');
     const character = await result.json();
     console.log(character)
-    //const characFilter = character.filter(element => element.id <= 3)
-    const characFilter = character.slice(0,1)
+    const characFilter = character.filter(element => element.id == 1)
+    //const characFilter = character.slice(0,1)
     character.forEach(element => {
         for(i = 0; i <= characFilter.length; i ++){
             if(element.id == i){
@@ -41,8 +41,25 @@ const validar = (e) => {
                  return false;
         }
     }
-
+    if(!emailValido(email.value)){
+        swal({
+            title: `El campo ${arrMessages[1]} no tiene el formato correcto`,
+            icon: "error",
+             })
+             return false;
+    }
+    swal({
+        title: `Datos enviados satisfactoriamente`,
+        icon: "success",
+         })
+         nombre.value = "";
+         email.value = "";
+         mensaje.value = "";
+    return true;
 }
 
-btn_validar.addEventListener("click", validar)
 getData();
+btn_validar.addEventListener("click", validar)
+const emailValido = email => {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
+}
