@@ -22,4 +22,27 @@ async function getData() {
     });
 }
 
+const btn_validar = document.getElementById('btn-validar');
+
+const validar = (e) => {
+    e.preventDefault();
+    const nombre = document.getElementById('nombre');
+    const email = document.getElementById('email');
+    const mensaje = document.getElementById('mensaje');
+    const arr = [];
+    const arrMessages = ["Nombre", "Email", "Mensaje"];
+    arr.push(nombre, email, mensaje);
+    for(i = 0; i < arr.length; i++){
+        if(arr[i].value == ""){
+            swal({
+                title: `El campo ${arrMessages[i]} no puede estar vacío`,
+                icon: "error",
+                 })
+                 return false;
+        }
+    }
+
+}
+
+btn_validar.addEventListener("click", validar)
 getData();
