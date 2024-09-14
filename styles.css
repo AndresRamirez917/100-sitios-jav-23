@@ -178,7 +178,7 @@ form button {
 #services .services-img-1{
     float: left;
     width: 20%;
-   
+   height: 25vh;
 }
 
 #services .services-text-2 {
@@ -191,6 +191,7 @@ form button {
 #services .services-img-2 {
     float: right;
     width: 16%;
+    height: 25vh;
 }
 
 /* form */
