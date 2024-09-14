@@ -106,7 +106,7 @@ const validar = (e) => {
 
 getData();
 getData2()
-//btn_validar.addEventListener("click", validar)
+btn_validar.addEventListener("click", validar)
 const emailValido = email => {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
 }
